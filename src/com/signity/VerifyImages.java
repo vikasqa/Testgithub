@@ -23,7 +23,7 @@ public class VerifyImages {
 	@BeforeClass
 	public void setUp() {
 		driver = new FirefoxDriver();
-		driver.get("http://bengalivideos.onmo.com/");
+		driver.get("http://tamilvideos.onmo.com/");
 		
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		for (int i = 0; i < 30; i++) {
